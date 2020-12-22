@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-dark text-white">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">STELLOPRINT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <!-- Nav Dropdown -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <!-- Search Bar -->
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Banner Image -->
+        <div class="card mb-3 bg-dark text-white" style="max-width: 2560px;">
+            <div class="row g-0">
+                <div class="col-lg-9">
+                    <img src="./assets/images/card-design.jpg" class="card-img img-fluid" alt="...">
+                </div>
+                <!-- Banner Overlay Text -->
+                <div class="card-img-overlay">
+                    <p class="card-text text-break">
+                        ORIGINAL INSIGHTS <br>
+                        ANIMAL INTUITIONS <br>
+                        CURIOSITY, NOUS & <br>
+                        DATA VISUALIZATION</p>
+                    </p>
+                    <p class="card-text text-break">挑战也是机会</p>
+                </div>
+                <!-- Banner Side Text -->
+                <div class="col-lg-3">
+                    <div class="card-body">
+                        <p class="card-text"><small><strong>S T E L L O</strong></small></p>
+                        <p class="card-text"><small class="text-muted">
+                            <strong><i>{verb}</i> Definition:</strong>
+                        </small></p>
+                        <ol class="card-text text-break">
+                            <li><small class="text-muted">to set, place, <mark>set in order</mark>, arrange</small>
+                                <ol type="I">
+                                    <li><small class="text-muted">to fit out, to prepare, equip</small></li>
+                                    <li><small class="text-muted">to <mar>prepare one's self</mar>, to fit out for one's self</small></li>
+                                    <li><small class="text-muted">to fit out for one's own use</small></li>
+                                    <li><small class="text-muted">arranging, providing for this, etc.</small></li>
+                                </ol>
+                            </li>
+                            <li><small class="text-muted">to bring together, contract, shorten</small>
+                                <ol type="I">
+                                    <li><small class="text-muted">to diminish, check, cause to cease</small></li>
+                                    <li><small class="text-muted"><mark>to cease to exist</mark></small></li>
+                                    <li><small class="text-muted">to <mark>remove one's self</mark>, withdraw one's self, to depart</small></li>
+                                    <li><small class="text-muted">to <mark>abstain from familiar intercourse</mark> with one</small></li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Welcome Text -->
+        <div class="card bg-dark text-white" style="width: 100%;">
+            <div class="card-body">
+                <p class="card-text">
+                    Welcome to this unique blogging experience. Content will 
+                    mostly focus around my work in web development, data and 
+                    visual analytics. Other interests such such as languages, 
+                    history and energy may also be featured on the blog section 
+                    of this site <i>(coming soon)</i>. <br><br>
+
+                    Commentary and advice are provided via thoughtful posts, 
+                    always aiming towards honesty. This is primarily a business 
+                    blog, so I promise to keep it professional, however expect 
+                    some personality here and there. <br><br>
+
+                    At times coherent and well laid out. Other times more of a 
+                    stream of consciousness (or rants). <br><br>
+
+                    <i>Welcome to <strong>STELLOPRINT.</strong></i>
+                </p>
+            </div>
+        </div>
+
+    </main>
+
     
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/scripts.js"></script>
 </body>
 </html>
