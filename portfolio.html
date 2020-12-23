@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>Document</title>
+</head>
+<body class="bg-light">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">STELLOPRINT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <!-- Nav Dropdown -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Portfolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                </ul>
+                <!-- Search Bar -->
+                <!-- <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Portfolio Grid -->
+        <section>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="https://github.com/stephenlprice/horiseon-accessibility-project" target="_blank">
+                            <img src="./assets/images/code-refactor.png" class="card-img-top img-fluid" alt="Code Refactor Project">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Code Refactor Project</h5>
+                            <p class="card-text">Accessibility ensures that people with disabilities can access a website using assistive technologies. Accessibility is also good for business as accessible sites are better positioned in search engines and help avoid potential litigation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="https://github.com/stephenlprice/CloudHome" target="_blank">
+                            <img src="./assets/images/cloudhome.png" class="card-img-top img-fluid" alt="CloudHome OpenAPI Project">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">CloudHome API</h5>
+                            <p class="card-text">An OpenAPI v3 description written with Stoplight Studio. Use this API to leverage CloudHome's central repository of devices that allow's users to manage automation systems at home, at work or on the go.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./assets/images/Asset_Production_Report_1.jpg" class="card-img-top img-fluid" alt="Embedding Tableau Dashboards">
+                        <div class="card-body">
+                            <h5 class="card-title">Tableau's Javascript API</h5>
+                            <p class="card-text">Embed Tableau content on your website or application. Use JS functions to extend the dashboard's functionality. A great place to learn these skills from a no-nonsense author.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./assets/images/Call_Volume_Analysis_1.jpg" class="card-img-top img-fluid" alt="A Gallery of Cool Tableau Dashboards">
+                        <div class="card-body">
+                            <h5 class="card-title">Visual Analytics Gallery</h5>
+                            <p class="card-text">Tableau Public is a treasure trove of fantastic content. Given it's open nature and size sometimes a little guidance is needed. Here you will find a curated collection of my favorite data visualizations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./assets/images/Well_Log_MasterFlow.jpg" class="card-img-top img-fluid" alt="Data prep for well log analysis">
+                        <div class="card-body">
+                            <h5 class="card-title">Tableau Well Logs</h5>
+                            <p class="card-text">Transform your .las files into a friendlier format. Use Tableau Prep to create a repository of all your logs, create visual magic with Tableau Desktop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./assets/images/seismic_1.png" class="card-img-top img-fluid" alt="Reflection Seismology in Tableau">
+                        <div class="card-body">
+                            <h5 class="card-title">Tableau Reflection Seismology</h5>
+                            <p class="card-text">How to visualize seismic reports for oil & gas applications using Tableau. Not your everyday use case but man is the solution pretty cool!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer with Breadcrumbs  -->
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                </ol>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="./assets/scripts/scripts.js"></script>
+</body>
+</html>
