@@ -1,4 +1,4 @@
-# bootstrap-portfolio
+# Stephen Price's Bootstrap Coding Portfolio (Stelloprint)
 
 A responsive coding portfolio built with Bootstrap 5.
 
@@ -6,4 +6,7 @@ Responsive design ensures that web applications render well on a variety of devi
 
 The website can be explored here: https://stephenlprice.github.io/bootstrap-portfolio/
 
+<br>
+
+![portfolio](assets/images/bootstrap-portfolio.png)
 
