@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <title>Document</title>
 </head>
-<body>
+<body class="bg-light">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">Stephen Price</a>
+            <a class="navbar-brand" href="./index.html">STELLOPRINT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,6 +29,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
+                    <!-- Nav Dropdown -->
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Portfolio
@@ -41,67 +42,91 @@
                         </ul>
                     </li> -->
                 </ul>
-                <form class="d-flex">
+                <!-- Search Bar -->
+                <!-- <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </div>
     </nav>
 
     <main>
-        <!-- Breadcrumbs -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About</li>
-            </ol>
-        </nav>
+        <br>
+        <div class="card bg-light border-light">
+            <div class="card-body">
+                <h2 class="card-title">What is <i><strong>Stelloprint</strong></i>?</h2> 
+                <br>
+                <p class="card-text"><small>OR: HOW I LEARNED TO STOP WORRYING AND IGNORE THE MAN IN THE LABCOAT</small></p>
+            </div>
+            <img src="./assets/images/pugile_banner.jpg" class="card-img-bottom img-fluid" alt="...">
+        </div>
 
-        <!-- Main Carousel -->
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://via.placeholder.com/100" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </div>
+        <!-- About the Site -->
+        <div class="card bg-light border-light" style="width: 100%;">
+            <div class="card-body">
+                <p class="card-text">
+                    Blah blah blah
+                </p>
+            </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="card mb-3 border-light" style="max-width: 100%;">
+            <div class="row g-0">
+                <h2 class="card-title">Who is <i><strong>Stelloprint</strong></i>?</h2>
+                <div class="col-md-5">
+                    <img src="./assets/images/StephenPrice.jpg" class="img-fluid" alt="Stephen Price">
                 </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/200" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://via.placeholder.com/300" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <div class="col-md-7">
+                    <div class="card-body">
+                        <p class="card-text">
+                            This is probably the hardest post to write well. 
+                            Not for a lack of content but mainly because I am 
+                            currently in a process of discovering who I am and 
+                            so far I have not found the finish line. Maybe such 
+                            a thing does not exist...maybe there is no finish line. 
+                            If the finish line does exist then I wouldn't mind some 
+                            directions: north, south. At the end of the hall and then 
+                            take a left. Out the window and face first into the pavement. 
+                            However I have a feeling that your finish line is different 
+                            from my own and if I do take your directions then I may 
+                            have to circle around to where I started. If life were a 
+                            maze then that would make me a lonely minotaur's next meal. 
+                            Perhaps the best way to describe myself is to narrate this 
+                            journey, in a very summarized form, and as a result you the 
+                            reader may get a better feeling for who I am. <br><br>
+
+                            For those of you who don't care to read longer than a few 
+                            paragraphs here is the tl;dr:<br><br>
+
+                            I am a former data visualization and API design solutions 
+                            consultant that aspires to master creative digital technologies. 
+                            I want to learn how things work because I like to build and 
+                            create. I want to build things beautiful and learn a craft that 
+                            I find rewarding. This blog exists so that I may share my 
+                            experiences with anyone who cares to read about them, and I 
+                            hope that a few of you may find its content useful for your 
+                            own projects.
+                        </p>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </a>
         </div>
-
 
     </main>
 
-    
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container">
+            <!-- Breadcrumbs -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+            </nav>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="./assets/scripts/scripts.js"></script>
