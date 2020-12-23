@@ -6,6 +6,11 @@ section {
     padding: 0 0 1.5em 0;
 }
 
+.def {
+    margin-bottom: 1em;
+}
+
 #definition {
     font-size: 0.95em;
 }
+
