@@ -52,69 +52,52 @@
     </nav>
 
     <main>
-        <!-- About the Site -->
+        <!-- Contact Form -->
         <section>
-            <!-- About Title and Banner Image -->
-            <div class="card bg-light border-light">
-                <div class="card-body">
-                    <h2 class="card-title">What is <i><strong>Stelloprint</strong></i>?</h2> 
-                    <br>
-                    <p class="card-text"><small>OR: HOW I LEARNED TO STOP WORRYING AND IGNORE THE MAN IN THE LABCOAT</small></p>
+            <div class="row">
+                <div class="col-12 col-lg-5 col-xl-5">
+                    <!-- Contact Disclaimer -->
+                    <section>
+                        <div class="card" style="width: 100%;">
+                            <img src="./assets/images/StephenPrice.jpg" class="card-img-top img-fluid" alt="Stephen Price">
+                            <div class="card-body">
+                              <p class="card-text">
+                                  Get in touch with me if you would like to know about my work.
+                                  Do you want to inquire about consulting? Do you want me to
+                                  join one of your projects? Send me a message! <br><br>
+                                  Otherwise I would be happy to learn about any cool projects
+                                  you may want to share with me. 
+                              </p>
+                              <a href="./portfolio.html" class="btn btn-primary">See Portfolio</a>
+                            </div>
+                          </div>
+                    </section>
                 </div>
-                <img src="./assets/images/pugile_banner.jpg" class="card-img-bottom img-fluid" alt="...">
-            </div>
-    
-            <!-- About the Site Text -->
-            <div class="card bg-light border-light" style="width: 100%;">
-                <div class="card-body">
-                    <p class="card-text">
-                        Blah blah blah
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- About Me -->
-        <section>
-            <div class="card mb-3 border-light" style="max-width: 100%;">
-                <div class="row g-0">
-                    <h2 class="card-title">Who is <i><strong>Stelloprint</strong></i>?</h2>
-                    <div class="col-md-5">
-                        <img src="./assets/images/StephenPrice.jpg" class="img-fluid" alt="Stephen Price">
-                    </div>
-                    <div class="col-md-7">
-                        <div class="card-body">
-                            <p class="card-text">
-                                This is probably the hardest post to write well. 
-                                Not for a lack of content but mainly because I am 
-                                currently in a process of discovering who I am and 
-                                so far I have not found the finish line. Maybe such 
-                                a thing does not exist...maybe there is no finish line. 
-                                If the finish line does exist then I wouldn't mind some 
-                                directions: north, south. At the end of the hall and then 
-                                take a left. Out the window and face first into the pavement. 
-                                However I have a feeling that your finish line is different 
-                                from my own and if I do take your directions then I may 
-                                have to circle around to where I started. If life were a 
-                                maze then that would make me a lonely minotaur's next meal. 
-                                Perhaps the best way to describe myself is to narrate this 
-                                journey, in a very summarized form, and as a result you the 
-                                reader may get a better feeling for who I am. <br><br>
-    
-                                For those of you who don't care to read longer than a few 
-                                paragraphs here is the tl;dr:<br><br>
-    
-                                I am a former data visualization and API design solutions 
-                                consultant that aspires to master creative digital technologies. 
-                                I want to learn how things work because I like to build and 
-                                create. I want to build things beautiful and learn a craft that 
-                                I find rewarding. This blog exists so that I may share my 
-                                experiences with anyone who cares to read about them, and I 
-                                hope that a few of you may find its content useful for your 
-                                own projects.
-                            </p>
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <form>
+                        <h4>Contact Me</h4>
+                        <br>
+                        <div class="mb-3">
+                            <label for="inputFirstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" placeholder="Juan" id="inputFirstName">
                         </div>
-                    </div>
+                        <div class="mb-3">
+                            <label for="inputLastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Dale" id="inputLastName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="user@domain.com" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="inputMessage" placeholder="What do you have in mind?" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-2 col-xl-3">
                 </div>
             </div>
         </section>
@@ -128,7 +111,7 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
             </nav>
         </div>
