@@ -14,3 +14,12 @@ section {
     font-size: 0.95em;
 }
 
+.portfolio-btn {
+    margin-bottom: 1rem;
+}
+
+.navbar-dark a.navbar-brand {
+    color: #49fcd4;
+    font-style: italic;
+}
+
