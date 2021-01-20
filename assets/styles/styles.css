@@ -6,6 +6,10 @@ section {
     padding: 0 0 1.5em 0;
 }
 
+a:hover {
+    color: #49fcd4;
+}
+
 .def {
     margin-bottom: 1em;
 }
@@ -30,5 +34,15 @@ section {
 /* Navbar Links */
 .navbar div.container-fluid div.collapse.navbar-collapse a:hover{
     color: #49fcd4; 
+}
+
+/* Breadcrumb Text */
+ol.breadcrumb li.breadcrumb-item a:hover {
+    color: #49fcd4;
+}
+
+/* Contact Page links to other sites */
+a.resume-link i:hover {
+    filter: brightness(1.5);
 }
 
