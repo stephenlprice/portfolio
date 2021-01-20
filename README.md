@@ -1,4 +1,4 @@
-# Stephen Price's Bootstrap Coding Portfolio (Stelloprint)
+# Stephen Price's Portfolio (Stelloprint)
 
 A responsive coding portfolio built with Bootstrap 5.
 
