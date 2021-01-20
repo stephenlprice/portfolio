@@ -19,7 +19,16 @@ section {
 }
 
 .navbar-dark a.navbar-brand {
-    color: #49fcd4;
     font-style: italic;
+}
+
+/* Stelloprint Header */
+.navbar div.container-fluid a:hover {
+    color: #49fcd4;
+}
+
+/* Navbar Links */
+.navbar div.container-fluid div.collapse.navbar-collapse a:hover{
+    color: #49fcd4; 
 }
 
