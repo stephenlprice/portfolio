@@ -46,3 +46,14 @@ a.resume-link i:hover {
     filter: brightness(1.5);
 }
 
+/* Style Portfolio Images */
+img.portfolio-img {
+    transition: transform .2s;
+}
+
+img.portfolio-img:hover {
+    -ms-transform: scale(1.025); /* IE 9 */
+    -webkit-transform: scale(1.025); /* Safari 3-8 */
+    transform: scale(1.025); 
+    filter: brightness(0.85);
+}
