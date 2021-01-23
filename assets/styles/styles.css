@@ -57,3 +57,10 @@ img.portfolio-img:hover {
     transform: scale(1.025); 
     filter: brightness(0.85);
 }
+
+/* Main Landing Page Image */
+img#landingPhoto {
+    border: 0.125rem;
+    border-color: #212529;
+    border-style: solid;
+}
