@@ -10,6 +10,21 @@ a:hover {
     color: #49fcd4;
 }
 
+a.resume-link {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+a.resume-link:hover {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Contact Page links to other sites */
+a.resume-link i:hover {
+    filter: brightness(1.5);
+}
+
 .def {
     margin-bottom: 1em;
 }
@@ -39,11 +54,6 @@ a:hover {
 /* Breadcrumb Text */
 ol.breadcrumb li.breadcrumb-item a:hover {
     color: #49fcd4;
-}
-
-/* Contact Page links to other sites */
-a.resume-link i:hover {
-    filter: brightness(1.5);
 }
 
 /* Style Portfolio Images */
